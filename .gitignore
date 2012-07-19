@@ -1,0 +1,16 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Temp Files
+*~
+
+#MonoDevelop
+*.pidb
+*.userprefs
+*.usertasks
+*.resources
+test-results
+bin
+*.sublime-project
+*.sublime-workspace

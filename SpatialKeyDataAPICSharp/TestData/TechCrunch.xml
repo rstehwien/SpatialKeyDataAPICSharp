@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umgMeta version="1.0" purpose="for importing">
+  <dataset>
+    <name>TechCrunch</name>
+    <georeference method="geocode">
+      <streetField></streetField>
+      <streetValue></streetValue>
+      <cityField>city</cityField>
+      <cityValue></cityValue>
+      <countyField></countyField>
+      <countyValue></countyValue>
+      <stateField>state</stateField>
+      <stateValue></stateValue>
+      <postalCodeField></postalCodeField>
+      <postalCodeValue></postalCodeValue>
+      <countryField></countryField>
+      <countryValue></countryValue>
+    </georeference>
+  </dataset>
+  <columns>
+  <column>
+    <position>1</position>
+    <name>permalink</name>
+    <type confidence="100">STRING</type>
+  </column>
+  <column>
+    <position>2</position>
+    <name>company</name>
+    <type confidence="100">STRING</type>
+  </column>
+  <column>
+    <position>3</position>
+    <name>numemps</name>
+    <type confidence="100">NUMBER/INTEGER</type>
+  </column>
+  <column>
+    <position>4</position>
+    <name>category</name>
+    <type confidence="100">STRING</type>
+  </column>
+  <column>
+    <position>5</position>
+    <name>city</name>
+    <type confidence="100">STRING/CITY</type>
+  </column>
+  <column>
+    <position>6</position>
+    <name>state</name>
+    <type confidence="100">STRING/STATE</type>
+  </column>
+  <column>
+    <position>7</position>
+    <name>fundeddate</name>
+    <type confidence="100">DATE/DAY</type>
+  </column>
+  <column>
+    <position>8</position>
+    <name>raisedamt</name>
+    <type confidence="100">NUMBER/INTEGER</type>
+  </column>
+  <column>
+    <position>9</position>
+    <name>raisedcurrency</name>
+    <type confidence="100">STRING</type>
+  </column>
+  <column>
+    <position>10</position>
+    <name>round</name>
+    <type confidence="100">STRING</type>
+  </column>
+  </columns>
+</umgMeta>

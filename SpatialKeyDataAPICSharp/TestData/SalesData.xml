@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umgMeta version="1.0" purpose="for publishing">
+  <dataset>
+    <name>SalesData</name>
+    <georeference method="trust">
+      <latitudeField>Latitude</latitudeField>
+      <longitudeField>Longitude</longitudeField>
+    </georeference>
+  </dataset>
+  <columns>
+    <column>
+      <position>1</position>
+      <name>Transaction_date</name>
+      <type confidence="100">DATE/MINUTE</type>
+    </column>
+    <column>
+      <position>2</position>
+      <name>Product</name>
+      <type confidence="100">STRING</type>
+    </column>
+    <column>
+      <position>3</position>
+      <name>Price</name>
+      <type confidence="100">NUMBER/INTEGER</type>
+    </column>
+    <column>
+      <position>4</position>
+      <name>Payment_Type</name>
+      <type confidence="100">STRING</type>
+    </column>
+    <column>
+      <position>5</position>
+      <name>Name</name>
+      <type confidence="100">STRING</type>
+    </column>
+    <column>
+      <position>6</position>
+      <name>City</name>
+      <type confidence="100">STRING/CITY</type>
+    </column>
+    <column>
+      <position>7</position>
+      <name>State</name>
+      <type confidence="100">STRING/STATE</type>
+    </column>
+    <column>
+      <position>8</position>
+      <name>Country</name>
+      <type confidence="100">STRING/COUNTRY</type>
+    </column>
+    <column>
+      <position>9</position>
+      <name>Account_Created</name>
+      <type confidence="100">DATE/MINUTE</type>
+    </column>
+    <column>
+      <position>10</position>
+      <name>Last_Login</name>
+      <type confidence="100">DATE/MINUTE</type>
+    </column>
+    <column>
+      <position>11</position>
+      <name>Latitude</name>
+      <type confidence="100">LATITUDE</type>
+    </column>
+    <column>
+      <position>12</position>
+      <name>Longitude</name>
+      <type confidence="100">LONGITUDE</type>
+    </column>
+  </columns>
+</umgMeta>
