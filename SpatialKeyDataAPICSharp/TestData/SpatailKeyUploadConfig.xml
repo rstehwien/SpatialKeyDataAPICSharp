@@ -2,8 +2,8 @@
 <config>    
 	<organizationName>dev3</organizationName>
 	<userName>user@spatialkey.com</userName>
-	<password>password</password>
-	<csvPath>SalesData.csv</csvPath>
+	<password>xxx</password>
+	<dataPath>SalesData.csv</dataPath>
 	<xmlPath>SalesData.xml</xmlPath>
 	<action>overwrite</action>
 	<runAsBackground>true</runAsBackground>

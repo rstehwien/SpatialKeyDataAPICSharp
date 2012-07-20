@@ -1,7 +1,7 @@
 using System;
 using System.Xml;
 
-namespace SpatialKeyDataAPICSharp
+namespace SpatialKey
 {
 	class MainClass
 	{
@@ -13,12 +13,12 @@ namespace SpatialKeyDataAPICSharp
 			XmlDocument doc = new XmlDocument ();
 			doc.Load (configFile);
 
-			Uploader uploader = new Uploader(doc.SelectSingleNode("/config/organizationName").InnerText, 
+			DataImporter skapi = new DataImporter(doc.SelectSingleNode("/config/organizationName").InnerText, 
 			                                 doc.SelectSingleNode("/config/userName").InnerText, 
 			                                 doc.SelectSingleNode("/config/password").InnerText, 
 			                                 Log);
 
-			uploader.UploadData(doc.SelectSingleNode("/config/csvPath").InnerText, 
+			skapi.UploadData(doc.SelectSingleNode("/config/dataPath").InnerText, 
 			                    doc.SelectSingleNode("/config/xmlPath").InnerText,
 			                    doc.SelectSingleNode("/config/action").InnerText,
 			                    doc.SelectSingleNode("/config/runAsBackground").InnerText == "true",
